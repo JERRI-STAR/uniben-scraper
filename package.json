@@ -1,0 +1,31 @@
+{
+  "name": "uniben-web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for UNIBEN official website to extract school fees, hostel info, and announcements",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "dev": "nodemon scraper.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "web-scraper",
+    "uniben",
+    "nigeria",
+    "education",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
